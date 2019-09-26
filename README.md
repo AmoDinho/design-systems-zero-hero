@@ -11,6 +11,8 @@ Since round about the same time last year I've been trying to get my deisgn syst
 
 ## why do design systems exist? 
 
+Design systems exist purely because they help companies provide a consistent brand and user experince for their products or services. 
+
 ## how can they improve my ability
 
 ## Phases of building them
