@@ -6,6 +6,9 @@ A link to the talk can be found [here](https://www.figma.com/proto/KedEPuWZk0CXW
 
 # Blog Post
 
+Since round about the same time last year I've been trying to get my deisgn systems game up to stracth. In this post I'm gonna walk you through how I built two design systems and made component libraries in Vue and React. If you follow along you could also build yours in no time at all. However the outputs are really bare bones and the goal is to get your design system out in the wild to be used in your apps and marketing activities. 
+
+
 ## why do design systems exist? 
 
 ## how can they improve my ability
