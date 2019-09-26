@@ -13,7 +13,16 @@ Since round about the same time last year I've been trying to get my deisgn syst
 
 Design systems exist purely because they help companies provide a consistent brand and user experince for their products or services. 
 
+Your users are everywhere your brand is. Web, mobile, print, film and clothing are just a few places where your customers/users interat with your brand.
+
+Design systems help bridge the gap between these diffferent platforms and give your team guidelines on how to execute the design and brand.
+
 ## how can they improve my ability
+
+### Proptype faster
+
+### Avoid sharing code between components
+
 
 ## Phases of building them
 
