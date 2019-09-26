@@ -21,8 +21,18 @@ Design systems help bridge the gap between these diffferent platforms and give y
 
 ### Proptype faster
 
+When building out stuff you want to make sure that you're able to make sure your business requirements are sound. So when making hifidelity prototypes the cognitive load of managing the styling of your app and still making sure the use cases are valid can really eat you up. 
+
+So lets take a look at this file:
+
+[ADD SCREENSHOOTS FROM THREE USE CASES IN FIGMA]
+
+This took me about 30mins to do, while looking over a use case that has three different alternative steps. Because I was able to easliy drag and drop components willy nilly I was able to focus on business requirements and get approval from stakeholders.
+
+
 ### Avoid sharing code between components
 
+At Pimp My Book where I work, we have a bursary app called GOA which helps bursary students order their educational materials and aids bursaries to cut down on wastage. So I had initally made a landing page in Vue, then a month later I needed a tool to help me with documentation for the app. So I use Gridsome, when starting on the docs site I was copying and pasting code between projects. It was really ugly and painful, but I did not have the time to stop and make a lib at the time.
 
 ## Phases of building them
 
