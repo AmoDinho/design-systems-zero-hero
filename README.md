@@ -41,11 +41,26 @@ So I went through two phases: design and engineering
 Out of the design phase you need to come out with a UI Kit in a design tool of your choice, while in the engineering phase you need a component library packaged for your platform. 
 
 ### Overview of design phase
+I'm a bit of a one man team at the moment. So it is not smart to over design in this phase but rather keep things simple. If you're in a larger team I would still recommend that you try to keep this stage simple and make sure engineers are particpaing in your plans for what the components will look like. Because you could come up with a design that your enigneering team might not know how to pull off and it will just take longer for the components to be shipped because they now have to go out of their to figure out how to bring your over deisigned components to life. 
 
 ### Design tools: choose one
 
-### Use premade components
+When it comes to design tools, it is easy to get overwhelmed. So I will make the decision for you! FIGMA is the only way!
 
+There are tonnes of tools which can be looked at here [insert link to deisgn tools]. 
+
+Why Figma
+
+It is free, you have all the serious functionality to be productive without needing to fork out moneny. 
+
+It is primarily based on the web so it solves accessibility problems without needing to have certain OS or device. 
+
+Neat advanced features like local styles and access to your components. [Supply links to videos of local styles etc]
+
+### Use premade components
+If you are sitting in your tool and making components from scrtach like making a rectangle and adding widths, border radius etc then you're a wasteman/wastewoman. Time is precious, use premade UI libraries and then customize everything according to your colours and typography. 
+
+I've been using this template and it is extremly useful. [pdkit.co]
 
 ### Focus on colours & typography
 
