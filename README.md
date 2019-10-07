@@ -70,6 +70,7 @@ For your typography simply take Two fonts from Google Fonts, One for headings an
  ### Shouldn’t take more than five days
 During this design phase, it should not take longer than a working week to get the UI library functional for you to build high fidelity mockups. 
 
+Our goal by doing this is to insure that you're able to ship your project faster because keystake holders might not be able to detect tanigble progress in your project. Trust I'm speaking from first hand experince. 
 ### Overview of engineering  phase
 
 ### Choose framework
