@@ -92,5 +92,8 @@ So I've opted to use TailwindCSS for both my projects. This is because it allows
 
 Personally I do not like overwriting existing styles from other UI libraries. This usually has me inspecting the dev tools etc just to change a colour. However, for complex components like accordians etc just import that specific component and take a hit with styling. 
 ### Component viewer
+So when building the component library, you can't structure it like you would a normal web app. This means no routing or anything. You need to figure out how to export all your components and register it with your framework. [Insert examples]
+
+Then once that is done you need to a component viewer that allows you to refresh and view all your components as you are building them. 
 
 ### CI/CD + Publishing
