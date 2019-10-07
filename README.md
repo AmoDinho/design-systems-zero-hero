@@ -67,16 +67,30 @@ I've been using this template and it is extremly useful. [pdkit.co]
 Once you set your colours and typography you are on the road to success. Simple go onto Dribbble or Pintrest and search for UI's you like and steal their colour palette. You need to have at least two base colours and accents. So If we look at GOA's DS, I have Green, then I go about two shades darker and two shades lighter. Then do the same for your accents, which will always be Yellow, blue, red, white and grey. For palettes go  to coolours or colourhunt.
 
 For your typography simply take Two fonts from Google Fonts, One for headings and the other for your body text. Then have Five or Six main headings, Then have a body text, caption text. Most importanly, systemize your sizing for your fonts and also spacing. [Add picture of sizing]
+
  ### Shouldn’t take more than five days
 During this design phase, it should not take longer than a working week to get the UI library functional for you to build high fidelity mockups. 
 
 Our goal by doing this is to insure that you're able to ship your project faster because keystake holders might not be able to detect tanigble progress in your project. Trust I'm speaking from first hand experince. 
+
+
+
+
 ### Overview of engineering  phase
+
+So now you've done with the designing things. We get to bring our babies to life. 
 
 ### Choose framework
 
+I've shipped two component libraries for different projects written in Vue and React. I can't say I have a favourite but the reasoning behind it is that I like doing more complicated apps with React and ligthweight apps with Vue.
+
+So choose either one and you should good to go.
+
 ###  Choose CSS framework
 
+So I've opted to use TailwindCSS for both my projects. This is because it allows me complete control over theming and the use of utility classes. Which means I can ditch BEM and Styled Components altogether.
+
+Personally I do not like overwriting existing styles from other UI libraries. This usually has me inspecting the dev tools etc just to change a colour. However, for complex components like accordians etc just import that specific component and take a hit with styling. 
 ### Component viewer
 
 ### CI/CD + Publishing
