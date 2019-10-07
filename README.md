@@ -68,6 +68,7 @@ Once you set your colours and typography you are on the road to success. Simple 
 
 For your typography simply take Two fonts from Google Fonts, One for headings and the other for your body text. Then have Five or Six main headings, Then have a body text, caption text. Most importanly, systemize your sizing for your fonts and also spacing. [Add picture of sizing]
  ### Shouldn’t take more than five days
+During this design phase, it should not take longer than a working week to get the UI library functional for you to build high fidelity mockups. 
 
 ### Overview of engineering  phase
 
