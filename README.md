@@ -118,6 +118,8 @@ Before I go over CI/CD lets just touch over my workflow.
  - Then start merging the PR, Travis is linked to my repo and it will run all my other tests to make sure I've not introduced any bugs while editing any of te other components.
  - Once the Tests are done I merge with master and travis then will publish to NPM on my behalf.
 
+I use the React and Vue libraries for Testing Library. Really easy to use, all you need is Jest configured and install either library and you're good to go. Here is an awesome link on how to think about testing. 
+
  So Continous Integration/Continous Development is the practice of being able to easily add new code to you codebase without breaking or introducing new bugs into the codebase, while being able to deploy new code frequently and often. As well as automating the deployment process and tests.
 
  (might not be accurate but this is how I understand it and implement it)
