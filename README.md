@@ -120,4 +120,10 @@ Before I go over CI/CD lets just touch over my workflow.
 
  So Continous Integration/Continous Development is the practice of being able to easily add new code to you codebase without breaking or introducing new bugs into the codebase, while being able to deploy new code frequently and often. As well as automating the deployment process and tests.
 
- 
+ (might not be accurate but this is how I understand it and implement it)
+
+ For deployment tools: Travis, CircleCI, Jenkins, Seed and others are avaiable.
+
+ At work I use Travis for NPM libraries and Seed for my Lambdas. While I use the CI baked into Netlify for my frontends. 
+
+ These deployment tools are therre to help us not constantly type in build commands in out terminals everytime we want to ship something. So with Travis I just need to create a `travis.yml` file and then give it an encrypted token from NPM. I used this blog post on how to figure out how to deploy to NPM. [Link blog post]
