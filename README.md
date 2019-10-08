@@ -109,6 +109,15 @@ So what I did was first deploy locally from my machine by using `npm publish`. F
 
 Before I go over CI/CD lets just touch over my workflow.
 
+- create a branch for the component, eg: feature/dropdown
  - Write a test case for my component. Here I basically state what its functionality needs to be. 
  - Create the component file: eg `Dropdown.vue` and I would add a plan native HTML <select> tag.
  - Then create a `Dropdown.story.js` file to make sure the Storybook server can pick it up. 
+ - Then I would go out building the component till it matches the designs in my design system in Figma and has the desired functionality. 
+ - Once I'm happy with that I start finishing up my test and make sure it passes locally.
+ - Then start merging the PR, Travis is linked to my repo and it will run all my other tests to make sure I've not introduced any bugs while editing any of te other components.
+ - Once the Tests are done I merge with master and travis then will publish to NPM on my behalf.
+
+ So Continous Integration/Continous Development is the practice of being able to easily add new code to you codebase without breaking or introducing new bugs into the codebase, while being able to deploy new code frequently and often. As well as automating the deployment process and tests.
+
+ 
