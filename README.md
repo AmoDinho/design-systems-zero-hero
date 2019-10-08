@@ -97,3 +97,18 @@ So when building the component library, you can't structure it like you would a 
 Then once that is done you need to a component viewer that allows you to refresh and view all your components as you are building them. 
 
 ### CI/CD + Publishing
+
+Initial when you start building the library, I started with trying to get the simplest component to NPM and verifiying it works by installing in a CodeSandbox app. 
+
+To publish to NPM you just need to :
+
+1. sign up for an account
+2. generate a token for your application
+
+So what I did was first deploy locally from my machine by using `npm publish`. First make sure you are logged into your account by using the `npm login` account. Then NPM will take care of the rest.
+
+Before I go over CI/CD lets just touch over my workflow.
+
+ - Write a test case for my component. Here I basically state what its functionality needs to be. 
+ - Create the component file: eg `Dropdown.vue` and I would add a plan native HTML <select> tag.
+ - Then create a `Dropdown.story.js` file to make sure the Storybook server can pick it up. 
