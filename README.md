@@ -127,3 +127,16 @@ Before I go over CI/CD lets just touch over my workflow.
  At work I use Travis for NPM libraries and Seed for my Lambdas. While I use the CI baked into Netlify for my frontends. 
 
  These deployment tools are therre to help us not constantly type in build commands in out terminals everytime we want to ship something. So with Travis I just need to create a `travis.yml` file and then give it an encrypted token from NPM. I used this blog post on how to figure out how to deploy to NPM. [Link blog post]
+
+ tl;dr
+
+ Basically:
+
+ - grab colours and typography
+ - use an existing UI tool kit in your design tool of choice
+ - customize the kit according to your brand and make all the components you need to achieve the UX you desire.
+ - Start with a typography component in your web framework of choice.
+ - deploy to NPM to verify everything is sound.
+ - Set up CI/CD + testing 
+ - Then build out each component one by one with unit tests. Basically every PR should be a new component added to the library for a user to use.
+ - Repeat the cycle till all your required components are done.
