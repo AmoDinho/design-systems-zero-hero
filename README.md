@@ -3,6 +3,8 @@ My blog post and talk on Design Systems
 
 A link to the talk can be found [here](https://www.figma.com/proto/KedEPuWZk0CXWWNAEf806cOZ/GOA?node-id=1692%3A35&scaling=scale-down)
 
+[GOA's Design System](https://www.figma.com/file/KedEPuWZk0CXWWNAEf806cOZ/GOA?node-id=0%3A1)
+[PMB Plus' Design System](https://www.figma.com/file/MH0ruI8pUrg7s2NXM4jra59W/PMB?node-id=0%3A1)
 
 # Blog Post WIP!!
 
